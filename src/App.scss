@@ -1,4 +1,6 @@
 *, ::before, ::after {box-sizing: border-box;}
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
 
 body {
     height: 100vh;
@@ -6,6 +8,7 @@ body {
     color: whitesmoke;
     display: flex;
     justify-content: center;
+    font-family: 'Nunito', sans-serif;
 }
 
 ul {
