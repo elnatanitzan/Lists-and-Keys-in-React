@@ -1,0 +1,23 @@
+*, ::before, ::after {box-sizing: border-box;}
+
+body {
+    height: 100vh;
+    background: #202020;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+  list-style: none;
+  display: inline;
+
+  li {
+      border: 1px solid whitesmoke;
+      padding: 5px 7px;
+      border-radius: 8px;
+      +li {
+          margin-top: .5rem;
+      }
+  }
+}
